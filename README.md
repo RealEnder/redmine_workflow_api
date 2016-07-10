@@ -9,6 +9,29 @@ Redmine API to access workflow status transitions and field permissions.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
+<transitions type="array">
+    <transition old_status_id="1" new_status_id="5" />
+    <transition old_status_id="2" new_status_id="5" />
+    <transition old_status_id="3" new_status_id="5" />
+    <transition old_status_id="4" new_status_id="5" />
+    <transition old_status_id="3" new_status_id="7" />
+    <transition old_status_id="7" new_status_id="5" />
+    <transition old_status_id="0" new_status_id="1" />
+    <transition old_status_id="1" new_status_id="6" />
+    <transition old_status_id="2" new_status_id="6" />
+    <transition old_status_id="4" new_status_id="6" />
+    <transition old_status_id="3" new_status_id="6" />
+    <transition old_status_id="7" new_status_id="6" />
+    <transition old_status_id="4" new_status_id="2" />
+</transitions>
+```
+
+### Endpoint to get field permissions for given role and tracker
+
+* [GET] /workflow/permissions.xml?role_id=1&tracker_id=1 | .json
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <permissions>
     <fields type="array">
         <field id="project_id" name="Project" />
