@@ -47,7 +47,7 @@ api.permissions do
         api.is_closed status.is_closed
         api.position status.position
         api.default_done_ratio status.default_done_ratio
-        api.permissions do
+        api.array :permissions do
           @permissions[status.id].each do |perm|
             api.permission :field => perm[0], :permission => perm[1][0]
           end
