@@ -300,8 +300,8 @@ How to use
 ```
 Then restart redmine.
 
-Compatible with:	Redmine 3.3.x, 3.2.x, 3.1.x, 3.0.x, 2.6.x, 2.5.x, 2.4.x
-Tesed with Redmine 3.3.0
+Compatible with:	Redmine 3.4.x, 3.3.x, 3.2.x, 3.1.x, 3.0.x, 2.6.x, 2.5.x, 2.4.x
+Tested with Redmine 3.3.0, 3.4.2
 
 License
 -------
