@@ -10,19 +10,19 @@ Redmine API to access workflow status transitions and field permissions.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <transitions type="array">
-    <transition old_status_id="1" new_status_id="5" />
-    <transition old_status_id="2" new_status_id="5" />
-    <transition old_status_id="3" new_status_id="5" />
-    <transition old_status_id="4" new_status_id="5" />
-    <transition old_status_id="3" new_status_id="7" />
-    <transition old_status_id="7" new_status_id="5" />
-    <transition old_status_id="0" new_status_id="1" />
-    <transition old_status_id="1" new_status_id="6" />
-    <transition old_status_id="2" new_status_id="6" />
-    <transition old_status_id="4" new_status_id="6" />
-    <transition old_status_id="3" new_status_id="6" />
-    <transition old_status_id="7" new_status_id="6" />
-    <transition old_status_id="4" new_status_id="2" />
+    <transition old_status_id="1" new_status_id="5" author="false"/>
+    <transition old_status_id="2" new_status_id="5" author="false"/>
+    <transition old_status_id="3" new_status_id="5" author="false"/>
+    <transition old_status_id="4" new_status_id="5" author="false"/>
+    <transition old_status_id="3" new_status_id="7" author="false"/>
+    <transition old_status_id="7" new_status_id="5" author="false"/>
+    <transition old_status_id="0" new_status_id="1" author="true"/>
+    <transition old_status_id="1" new_status_id="6" author="true"/>
+    <transition old_status_id="2" new_status_id="6" author="true"/>
+    <transition old_status_id="4" new_status_id="6" author="true"/>
+    <transition old_status_id="3" new_status_id="6" author="true"/>
+    <transition old_status_id="7" new_status_id="6" author="true"/>
+    <transition old_status_id="4" new_status_id="2" author="true"/>
 </transitions>
 ```
 
